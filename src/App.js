@@ -1,6 +1,14 @@
+import ReactGA from 'react-ga';
 import React, {Component} from 'react';
 
 class App extends Component {
+  constructor () {
+    super ();
+
+    ReactGA.initialize ('UA-80655492-2');
+    ReactGA.pageview (window.location.pathname);
+  }
+
   render () {
     return (
       <div id="wrapper">
