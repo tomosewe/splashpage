@@ -23,14 +23,28 @@ class App extends Component {
             <nav>
               <ul>
                 <li>
-                  <a href="https://blog.tomosewe.com" className="icon fa-rss">
+                  <a
+                    href="https://blog.tomosewe.com"
+                    className="icon fa-rss"
+                    title="Blog"
+                  >
                     <span className="label">Blog</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://resume.tomosewe.com"
+                    className="icon fa-address-book-o"
+                    title="Resume"
+                  >
+                    <span className="label">Resume</span>
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.github.com/tomosewe"
                     className="icon fa-github"
+                    title="GitHub"
                   >
                     <span className="label">Github</span>
                   </a>
@@ -39,6 +53,7 @@ class App extends Component {
                   <a
                     href="https://twitter.com/tomosewe"
                     className="icon fa-twitter"
+                    title="Twitter"
                   >
                     <span className="label">Twitter</span>
                   </a>
@@ -47,6 +62,7 @@ class App extends Component {
                   <a
                     href="https://www.linkedin.com/in/tomosewe/"
                     className="icon fa-linkedin"
+                    title="LinkedIn"
                   >
                     <span className="label">LinkedIn</span>
                   </a>
@@ -55,6 +71,7 @@ class App extends Component {
                   <a
                     href="mailto:tomosewe@gmail.com"
                     className="icon fa-envelope-o"
+                    title="Email"
                   >
                     <span className="label">Email</span>
                   </a>
