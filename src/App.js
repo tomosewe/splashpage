@@ -23,7 +23,7 @@ class App extends Component {
             <nav>
               <ul>
                 <li>
-                  <a href="https://tomosewe.com/blog" className="icon fa-rss">
+                  <a href="https://blog.tomosewe.com" className="icon fa-rss">
                     <span className="label">Blog</span>
                   </a>
                 </li>
