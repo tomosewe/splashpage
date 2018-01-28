@@ -7,6 +7,7 @@ class App extends Component {
 
     ReactGA.initialize ('UA-80655492-2');
     ReactGA.pageview (window.location.pathname);
+    console.log ('hi!');
   }
 
   render () {
